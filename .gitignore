@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw data and split data
+lastfm/
+lastfm_split/
+data/
+*.zip
+
+# Ignore output files by default, but final result
+*.tsv
+*.csv
+!output/forecast_next_3_months.csv
